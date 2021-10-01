@@ -1,0 +1,60 @@
+body{
+
+}
+
+.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+
+.red{
+    color: red;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size:40px;
+}
+
+a{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subtitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3{
+    color: deeppink;
+    background-color: #FEC8FC;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.container{
+    background-color: #FFFEC5;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > p{
+    margin: 0;
+}
+
+.separador{
+    width: 300px;
+}
