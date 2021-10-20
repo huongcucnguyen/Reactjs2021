@@ -1,0 +1,104 @@
+
+@font-face {
+    font-family: 'Graphik';
+    src: url("./fonts/EM-Graphik/OTF/Graphik-Regular.otf");
+}
+
+body {
+    /* Rectangle 9*/
+    background-image: url('./images/Rectangle9.jpeg'); 
+    background-color: #222B32; 
+    height: 930px;
+    width: 1775.765869140625px;
+    left: 1.234375px;
+    top: -3px;
+    border-radius: 0px;
+    
+}
+
+#ul_top_header {
+    display: flex;
+    justify-content:space-around;
+    list-style-type:none;
+    align-items:center;
+    color: #FFFFFF;
+    font-family: Graphik;
+}
+#ul_logo {
+    display: flex;
+    justify-content: center;
+    list-style-type:none;
+    height: 27.057575225830078px;
+    width: 33.305606842041016px;
+    left: 3.83984375px;
+    top: 6.96453857421875px;
+    border-radius: 0px;
+    background: #FFFFFF;
+
+}
+
+.home {
+    height: 28px;
+    width: 43px;
+    left: 10px;
+    top: 10px;
+    border-radius: nullpx;
+
+}
+h1 {
+    /*h1*/
+    font-family:'Graphik';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 74px;
+    line-height: 84px;
+    /* or 114% */
+    text-align: center;
+    letter-spacing: 0.2px;
+    /* Light text */
+    color: #FFFFFF;
+}
+h4 {
+     /*h4*/
+    font-family: Graphik;
+    font-style:normal;
+    font-weight:lighter;
+    font-size: 28px;
+    text-align: center;
+     /* Light text */
+    color: #FFFFFF;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+button {
+/* Button */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    background-color: #2091F9;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 35px;
+    width: 250px;
+    margin: 4px 2px;
+    cursor: pointer; 
+}
+  
+
+
+
+
+
+
+
